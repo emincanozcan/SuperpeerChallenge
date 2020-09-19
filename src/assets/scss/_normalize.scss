@@ -1,0 +1,19 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+* {
+	box-sizing: border-box;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	&:focus{
+		outline: none;
+	}
+}
+
+button,select{
+	cursor: pointer;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
